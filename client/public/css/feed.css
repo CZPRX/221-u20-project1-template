@@ -57,3 +57,11 @@ a {
 	max-width: 150px;
 	max-height: 150px;
 }
+#img1{
+	position:relative;
+	float: center;
+	margin-top:3px;
+	height: 80px;
+	bottom: 5px;
+	right: 50px;
+}
