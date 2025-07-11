@@ -24,3 +24,20 @@
     border-radius: 12px;
     padding: 16px 20px;
 }
+body {
+  background-image: url("../images/campus.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+.news-section {
+  background-image: url('/images/news-bg.jpg'); 
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  color: white;
+  border-radius: 12px;
+}
