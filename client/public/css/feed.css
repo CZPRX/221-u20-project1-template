@@ -96,4 +96,12 @@ body {
   display: block;
   margin: 20px auto;
 }
+#newsfeed {
+  width: 600px;
+  float: left;
+  background-color: lightblue;
+  padding: 20px;
+}
+
+
 
