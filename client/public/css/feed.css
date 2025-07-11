@@ -59,28 +59,13 @@ a {
 }
 #img1{
 	position:relative;
-	float: left;
+	float: center;
 	margin-top:3px;
 	height: 80px;
 	bottom: 5px;
 	right: 50px;
 }
-#img1{
-	position:relative;
-	float: left;
-	margin-top:3px;
-	height: 80px;
-	bottom: 5px;
-	right: 50px;
-}
-#img1{
-	position:relative;
-	float: left;
-	margin-top:3px;
-	height: 80px;
-	bottom: 5px;
-	right: 50px;
-}
+
 body {
   background-image: url("../images/campus.png");
   background-size: cover;
@@ -90,3 +75,25 @@ body {
   padding: 0;
   height: 100vh;
 }
+.feed-image {
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  display: block;
+  margin: 20px auto;
+}
+.feed-image {
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  display: block;
+  margin: 20px auto;
+}
+.feed-image {
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(223, 37, 37, 0.3);
+  display: block;
+  margin: 20px auto;
+}
+
