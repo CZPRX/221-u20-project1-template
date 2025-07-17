@@ -22,9 +22,7 @@ app.route('/api/feed/:id')
 
 app.get('/api/people', feedController.getPeople);
 app.get('/api/people/:id', feedController.getPersonById);
-
-app.post('/api/people', feedController.saveUser);
-
+app.post('/api/people', feedController.savePerson); // ✅ Only this one needed
 
 app.listen(1337, () => {
   console.log('Listening on port 1337.');
