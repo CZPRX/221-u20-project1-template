@@ -34,4 +34,31 @@ exports.updateFeedItem = (req, res) => {
   res.send(updatedItem || {});
 };
 
+const person = require('../model/person');
+
+let person1 = person.createPerson('Angel', 'Duarte', 'Purple');
+let person2 = person.createPerson('Cristopher', 'Rivera', 'Red');
+let person3 = person.createPerson('Luis', 'Trejo', 'Green');
+
+const people = [person1, person2, person3];
+
+exports.getPeople = (req, res) => {
+  res.setHeader('Content-Type', 'application/json');
+  res.send(people);
+};
+
+exports.getPersonById = (req, res) => {
+  const id = parseInt(req.params.id); // turns "1" into 1
+  const person = people[id];
+
+  res.setHeader('Content-Type', 'application/json');
+
+  if (person) {
+    res.send(person);
+  } else {
+    res.status(404).send({ error: 'Person not found' });
+  }
+};
+
+
 
